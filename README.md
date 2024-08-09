@@ -10,7 +10,7 @@ This is an AI powered Virtual Desktop Assistant named "Jarvis" created in Python
 
 ## Instructions to Run Jarvis:
 
-1) Download the Source File (zip) from here:
+1) Download the Source File (zip) from here: https://github.com/Sibtain24/Jarvis-AI-Desktop-Voice-Assistant/releases/tag/v1.0.0
 
 2) Open the folder in VS Code
 
