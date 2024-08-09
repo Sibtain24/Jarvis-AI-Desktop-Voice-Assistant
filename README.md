@@ -1,5 +1,7 @@
 # Project: AI Desktop Voice Assistant (Jarvis)
 
+![JARVIS-AI Desktop Voice Assistant](https://github.com/user-attachments/assets/a88429ef-b4bb-4407-abd8-325f0e11e024)
+
 This is an AI powered Virtual Desktop Assistant named "Jarvis" created in Python. When you run this program, you can ask the program to do various tasks. Currently, this program is capable of performing the following tasks:
 1) Voice chat with Google's Gemini.
 2) Search for a query on Google.
