@@ -12,7 +12,7 @@ This is an AI powered Virtual Desktop Assistant named "Jarvis" created in Python
 
 1) Download the Source File (zip) from here: https://github.com/Sibtain24/Jarvis-AI-Desktop-Voice-Assistant/releases/tag/v1.0.0
 
-2) Open the folder in VS Code
+2) Extract and open the folder in VS Code.
 
 3) Make sure you have Python installed in your PC and connect it to Visual Studio Code (If you don't know how to do this, you can watch a tutorial on YouTube to setup Visual Studio Code for Python development).
 
