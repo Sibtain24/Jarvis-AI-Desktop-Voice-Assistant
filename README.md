@@ -22,10 +22,11 @@ This is an AI powered Virtual Desktop Assistant named "Jarvis" created in Python
 4) Open your terminal application and install the following modules / packages before running the program:<br>
     a) Speech recognition : `pip install SpeechRecognition`<br>
     b) Pyttsx3 : `pip install pyttsx3`<br>
-    c) Google Generative AI : `pip install google-generativeai`<br>
+    c) Google Generative AI : `pip install google-generativeai`
+    d) PyAudio : `pip install PyAudio`<br>
     You can copy and paste the pip commands from the above to save some time.
 
-5) Now, you need to go to the Gemini API website and create an API key for yourself. To create an API key, [Click Here](https://ai.google.dev/gemini-api/docs/api-key). After creating an API key, Copy and Paste the key in place of "YOUR_API_KEY" written under _aiProcess_ function in the 'main.py' file.<br>[Note: You can also use OpenAI API for which you will need to pay some money. To use OpenAI API, you need to replace the code under "aiProcess" function with the code written in 'api_openai.py' file. You can do that by simply copying the code and pasting it under "aiProcess" function. Also, you will need to install OpenAI Package, for that, copy and paste this: `pip install openai` ]
+6) Now, you need to go to the Gemini API website and create an API key for yourself. To create an API key, [Click Here](https://ai.google.dev/gemini-api/docs/api-key). After creating an API key, Copy and Paste the key in place of "YOUR_API_KEY" written under _aiProcess_ function in the 'main.py' file.<br>[Note: You can also use OpenAI API for which you will need to pay some money. To use OpenAI API, you need to replace the code under "aiProcess" function with the code written in 'api_openai.py' file. You can do that by simply copying the code and pasting it under "aiProcess" function. Also, you will need to install OpenAI Package, for that, copy and paste this: `pip install openai` ]
 
 5) Run 'main.py' file.
 
