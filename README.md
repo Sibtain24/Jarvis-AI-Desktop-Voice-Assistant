@@ -35,7 +35,7 @@ For example, when you say **_"Jarvis"_**, then it will respond by saying _"Yes! 
 
 8) There are some pre-defined commands to do specific tasks. These are as follows:
 
-    a) You can ask any question to **Gemini AI** by directly speaking out the question out loud and you will get a response. (Disclaimer: Gemini Ai tends to give long answers to if you want to have brief answers the you can tell it to keep the response short and concise.)<br>
+    a) You can ask any question to **Gemini AI** by directly speaking out the question and you will get a response. (NOTE: Gemini AI tends to give long answers to if you want to have brief answers the you can tell it to keep the response short and concise.)<br>
         _For example: You asked, ***"What is Python Programming Language? Give me a short and concise answer"***. As soon as you ask a question, you will get the answer from Gemini AI_.
     
     b) For performing google searches, you need to say ***"Search in Google for"*** followed by your query that you want the results for.<br>
@@ -44,11 +44,11 @@ For example, when you say **_"Jarvis"_**, then it will respond by saying _"Yes! 
      
     c) For performing YouTube searches, you need to say ***"Search in YouTube for"*** followed by your query that you want the results for.<br>
         _For example: When you will say, ***"Search in YouTube for Python Programming Tutorial"***, it will search for "Python Programming Tutorial" videos in youtube.com in your default browser._
-     [Note: You will need to say "Search in YouTube for" to search for youtube videos otherwise it won't work.]
+     [NOTE: You will need to say "Search in YouTube for" to search for youtube videos otherwise it won't work.]
     
     d) For **opening websites** you have to say _"open"_ followed by the name of websites like Google, YouTube, GitHub. You can add more of your favorite websites by adding the names and links in program's code (in main.py file).<br>
         _For example: When you will say, ***"open google"***, then it will open google.com in your default browser. Likewise, you can say the names of other websites after saying "open"_. 
-     [Note: You can only open Google, YouTube, GMail and GitHub by default, but you add can add some more commands and websites manually by adding the codes.]
+     [NOTE: You can only open Google, YouTube, GMail and GitHub by default, but you add can add some more commands and websites manually by adding the codes.]
     
     e) For **opening apps** in your PC, you have to say _"open"_ followed by the name of apps like Chrome, Microsoft Edge, Word, Excel, PowerPoint, Visual Studio Code, Command Prompt, Notepad and Calculator.<br>
         _For example: When you will say, ***"open VS Code"*** or ***"open Visual Studio Code"***, it will open Visual Studio Code App in your PC. Likewise, you can say the names of other apps mentioned above to open them._
