@@ -9,6 +9,7 @@ import os
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
+engine.setProperty('rate', 165)
 
 def speak(text): # Function to transcribe speech to text
     engine.say(text)
@@ -54,7 +55,6 @@ def processCommand(c): # Function to process different commands given by the use
         speak("Opening your github profile in your default browser")
         webbrowser.open("https://github.com/Sibtain24/")
 
-
     # Creating Commands for opening desktop Apps:
 
     elif "open microsoft edge" in c.lower() or "open edge" in c.lower(): # Say - "open edge"
@@ -91,10 +91,18 @@ def processCommand(c): # Function to process different commands given by the use
         speak("Opening Calculator...")
         app_path = r"C:\WINDOWS\system32\calc.exe"
         os.startfile(app_path)
+    
+    # Creating command for writing emails, letters, essays or speech using Gemini AI in AI_Response.txt file:
+    
+    elif c.lower().startswith("write"): # Start a command with the word - "Write"
+        output = aiProcess(c)
+        with open("AI_Response.txt", "w") as mail:
+            mail.write(output)
+        speak("Done writing! Check the AI Response.text file")
 
     # Creating Command to play your favorite music or playlist from musicLibrary.py file:
 
-    elif c.lower().startswith("play"): # Say the word "play" followed by the "name" of music saved in musicLibrary.py file's dictionary
+    elif c.lower().startswith("play"): # Say the word "play" followed by the "name" of the music saved in musicLibrary.py file's dictionary
         song = c.lower().split(" ")[1]
         link = musicLibrary.music[song]
         speak("Playing now...")
@@ -118,12 +126,14 @@ def aiProcess(command):
 
     genai.configure(api_key="YOUR_API_KEY")
 
+    command = f"Please be precise and concise, and avoid unnecessary punctuation. Respond as if you are having a conversation but don't ask questions at the end. Also, when you are told to write something, respond in detail. {command}"
+
     # Create the model
     generation_config = {
         "temperature": 1,
         "top_p": 0.95,
         "top_k": 64,
-        "max_output_tokens": 8192,
+        "max_output_tokens": 5000,
         "response_mime_type": "text/plain",
     }
 
