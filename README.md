@@ -22,7 +22,7 @@ This is an AI powered Virtual Desktop Assistant named "Jarvis" created in Python
 4) Open your terminal application and install the following modules / packages before running the program:<br>
     a) Speech recognition : `pip install SpeechRecognition`<br>
     b) Pyttsx3 : `pip install pyttsx3`<br>
-    c) Google Generative AI : `pip install google-generativeai`
+    c) Google Generative AI : `pip install google-generativeai`<br>
     d) PyAudio : `pip install PyAudio`<br>
     You can copy and paste the pip commands from the above to save some time.
 
