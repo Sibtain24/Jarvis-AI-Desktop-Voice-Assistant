@@ -1,5 +1,6 @@
 from openai import OpenAI
 
+# Creating OpenAI Client to connect the Python Program with OpenAI
 client = OpenAI(
   api_key="YOUR_API_KEY",
 )
