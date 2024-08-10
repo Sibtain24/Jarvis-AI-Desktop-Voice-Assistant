@@ -3,16 +3,17 @@
 ![JARVIS-AI Desktop Voice Assistant](https://github.com/user-attachments/assets/a88429ef-b4bb-4407-abd8-325f0e11e024)
 
 This is an AI powered Virtual Desktop Assistant named "Jarvis" created in Python. When you run this program, you can ask the program to do various tasks. Currently, this program is capable of performing the following tasks:
-1) Voice chat with Google's Gemini.
-2) Search for a query on Google.
-3) Search for a video on YouTube.
-4) Open a few Websites like Google, YouTube, GMail and GitHub in default browser.
-5) Open a few apps like Microsoft Edge, Google Chrome, Word, Excel, PowerPoint, Visual Studio Code, Command Prompt, Notepad and Calculator.
-6) Playing Online Music or Playlist (saved in the 'musicLibrary.py' file).
+1) AI Response using Google's Gemini AI.
+2) Searching for a query on Google.
+3) Searching for a video on YouTube.
+4) Writing Email, Letter, Speech, Essay etc using Gemini AI.
+5) Opening a few Websites like Google, YouTube, GMail and GitHub in default browser.
+6) Opening a few apps like Microsoft Edge, Google Chrome, Word, Excel, PowerPoint, Visual Studio Code, Command Prompt, Notepad and Calculator.
+7) Playing Online Music or Playlist (saved in the 'musicLibrary.py' file).
 
 ## Instructions to Run Jarvis:
 
-1) Download the Source File (zip) from here: https://github.com/Sibtain24/Jarvis-AI-Desktop-Voice-Assistant/releases/tag/v1.0.0
+1) Download the Source File as zip by clicking on the 'Code' button on this web page and selecting 'Download as ZIP'.
 
 2) Extract and open the folder in VS Code.
 
@@ -52,10 +53,13 @@ For example, when you say **_"Jarvis"_**, then it will respond by saying _"Yes! 
     
     e) For **opening apps** in your PC, you have to say _"open"_ followed by the name of apps like Chrome, Microsoft Edge, Word, Excel, PowerPoint, Visual Studio Code, Command Prompt, Notepad and Calculator.<br>
         _For example: When you will say, ***"open VS Code"*** or ***"open Visual Studio Code"***, it will open Visual Studio Code App in your PC. Likewise, you can say the names of other apps mentioned above to open them._
-    
-    f) For **playing music** online, you need to say, "_open_" followed by the name of the song.<br>
-        _For example: When you will say, **"play wanted"** it will play the song called "Wanted" in your browser. To add custom songs or playlist, open the 'musicLibrary.py' file and then replace the dictionary key with the name of your favourite music and replace the value with the link of your favorite song or playlist._
-    
-    g) Lastly, to **quit** or **deactivate** Jarvis, you have to say ***"deactivate"*** or ***"stop"***, and the program will stop running. To run the program again, you will need the 'main.py' file again is Visual Studio Code.
 
-### ***I will keep on imroving this program over time and will give it, its own GUI and will add more functionality***🎯
+    f) For **writing emails, letters, essays etc**, you need to start the command by saying the word _"write"_ followed by what you want to write.<br>
+        _For example: If you said, ***"Write a formal email to my boss. I work in [this company] and the subject of the email is regarding [subject]."***, then Gemini AI will write the email in 'AI_Response.txt' file, which will be automatically created if not already present in the Jarvis Project folder._
+   
+    g) For **playing music** online, you need to say, "_open_" followed by the name of the song.<br>
+        _For example: When you will say, ***"play wanted"*** it will play the song called "Wanted" in your browser. To add custom songs or playlist, open the 'musicLibrary.py' file and then replace the dictionary key with the name of your favourite music and replace the value with the link of your favorite song or playlist._
+    
+    h) Lastly, to **quit** or **deactivate** Jarvis, you have to say ***"deactivate"*** or ***"stop"***, and the program will stop running. To run the program again, you will need the 'main.py' file again is Visual Studio Code.
+
+***I will keep on imroving this program over time and will give it, its own GUI and will add more functionality***🎯
