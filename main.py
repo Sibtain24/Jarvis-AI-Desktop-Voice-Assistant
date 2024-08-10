@@ -126,7 +126,7 @@ def aiProcess(command):
 
     genai.configure(api_key="YOUR_API_KEY")
 
-    command = f"Please be precise and concise, and avoid unnecessary punctuation. Respond as if you are having a conversation but don't ask questions at the end. Also, when you are told to write something, respond in detail. {command}"
+    command = f"Please be precise and concise, and avoid unnecessary punctuation. Respond as if you are having a conversation with a person but make sure you don't ask any question to the person. Also, when you are told to write something, respond in detail. {command}"
 
     # Create the model
     generation_config = {
