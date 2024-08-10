@@ -30,7 +30,7 @@ This is an AI powered Virtual Desktop Assistant named "Jarvis" created in Python
 
 5) Run 'main.py' file.
 
-6) Jarvis will start by saying, _"Initializing Jarvis..."_. 
+6) Jarvis will start by saying, _"Initializing Jarvis..."_.<br>[NOTE: You need to have an active internet connection for using Jarvis as it uses Google's Speech Recognition service and Gemini AI.]
 
 7) Then it will listen for you to say "Jarvis" to activate the operation. You will need to say _"Jarvis"_ everytime you want to perform a task. 
 For example, when you say **_"Jarvis"_**, then it will respond by saying _"Yes! How may I help you._" and after that you will need to ask any question that you want an answer to and the Gemini AI will respond to you or you will need to say the pre-defined commands to do certain tasks that are mentioned below.
